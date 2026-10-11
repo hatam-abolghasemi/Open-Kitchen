@@ -1,24 +1,24 @@
-# <Team> Brigade
+# <Team> Team Record
 
-Model version: Open Kitchen v1.0.0
+Model version: Open Kitchen v1.0.1
 Last renewed: <date>
 Next rotation point: <date>
 
-## House standards
+## Standards
 
-<Open Kitchen sample, as of v1.0.0 | our own, with link | the sample with our changes, with link>
+<Open Kitchen sample, as of v1.0.1 | our own, with link | the sample with our changes, with link>
 
 ## Maturity framework
 
 <name and link>
 
-## Chefs
+## Engineers
 
-<number of chefs> (<small | medium | large>)
+<number of engineers> (<small | medium | large>)
 
 ## Counters
 
-| Counter | What it handles | Repository group | Chefs | Regulars |
+| Counter | What it handles | Repository group | Engineers | Partners |
 | --- | --- | --- | --- | --- |
 | <counter> | <concern definition> | <path> | <names> | <names and teams> |
 
@@ -26,7 +26,7 @@ Next rotation point: <date>
 
 | Counter | Gateway | Until |
 | --- | --- | --- |
-| <counter> | <chef> | <date> |
+| <counter> | <engineer> | <date> |
 
 ## Defaults we changed
 
@@ -40,4 +40,4 @@ Next rotation point: <date>
 
 ## Rotation scheme
 
-<how we pick which counter changes for each chef, and where the chef goes>
+<how we pick which counter changes for each engineer, and where the engineer goes>

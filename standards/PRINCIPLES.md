@@ -1,8 +1,8 @@
 # DevOps Principles
 
-*A sample of house standards for an Open Kitchen.*
+*A sample of team standards for Open Kitchen.*
 
-The [manifesto](MANIFESTO.md) states what we believe. This document explains each belief and how it shows up in daily work. The examples come from the author's own brigade; replace them with yours if you adopt these standards.
+The [manifesto](MANIFESTO.md) states what we believe. This document explains each belief and how it shows up in daily work. The examples come from the author's own team; replace them with yours if you adopt these standards.
 
 Every section below has the same shape: the belief, **why** we hold it, and what it looks like **in practice**. Inside "in practice", the rule comes first, then the mechanism, then concrete examples.
 

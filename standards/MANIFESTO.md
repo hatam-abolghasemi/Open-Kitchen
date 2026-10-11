@@ -1,8 +1,8 @@
 # DevOps Manifesto
 
-*A sample of house standards for an Open Kitchen.*
+*A sample of team standards for Open Kitchen.*
 
-These are the beliefs of Hatam Abolghasemi, learned over four years of DevOps work. They are one brigade's answer to what good work means, not part of the [model](../MODEL.md). A brigade can adopt them as they are, change them, or write its own. The [principles](PRINCIPLES.md) explain each belief and how it shows up in daily work.
+These are the beliefs of Hatam Abolghasemi, learned over four years of DevOps work. They are one team's answer to what good work means, not part of the [model](../MODEL.md). A team can adopt them as they are, change them, or write its own. The [principles](PRINCIPLES.md) explain each belief and how it shows up in daily work.
 
 1. **Incidents are inevitable. Slow recovery is not.** Post-mortems exist to find ways to minimize MTTR.
 2. **`print` before `return`.** Metrics and measurement before production.
