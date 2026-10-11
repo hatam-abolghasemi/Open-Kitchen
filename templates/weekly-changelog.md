@@ -6,11 +6,11 @@ Minimum output met: <yes | no, and why>
 
 - <tool>-<environment>: <what changed> → <money | time | risk | customer experience>: <effect>
 
-## Family meal
+## Internal work
 
-- <what we did for the brigade itself> → <currency>: <effect>
+- <what we did for the DevOps team itself> → <currency>: <effect>
 
-## Test kitchen
+## R&D
 
 - <experiment>: <what we tried, what we found> → <currency>: <effect>
 

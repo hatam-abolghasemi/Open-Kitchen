@@ -1,13 +1,13 @@
 # <Counter> Charter
 
-Model version: Open Kitchen v1.0.0
+Model version: Open Kitchen v1.0.1
 Last renewed: <date>
 
-## Chefs
+## Engineers
 
 <names>
 
-## Regulars
+## Partners
 
 <names and teams, and how we work with them>
 
@@ -15,7 +15,7 @@ Last renewed: <date>
 
 <the concern and its tools>
 
-## Test kitchen
+## R&D
 
 <how we make room for R&D, and where our standards gap is kept>
 
@@ -23,7 +23,7 @@ Last renewed: <date>
 
 <what we deliver every week, no matter what>
 
-## Head chef
+## Lead
 
 <none | name + why we accept them>
 
@@ -45,7 +45,7 @@ Last renewed: <date>
 
 ## Gateway
 
-<permanent chef | weekly round-robin | monthly round-robin>
+<permanent engineer | weekly round-robin | monthly round-robin>
 
 ## Commitments to others
 

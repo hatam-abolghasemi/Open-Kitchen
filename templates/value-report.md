@@ -1,4 +1,4 @@
-# Brigade value report, <month>
+# DevOps team value report, <month>
 
 For: <manager, product teams, planning, finance, security>
 

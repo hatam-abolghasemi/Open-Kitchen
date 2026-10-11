@@ -1,4 +1,4 @@
-# Brigade summary, week <n>
+# DevOps team summary, week <n>
 
 ## At a glance
 

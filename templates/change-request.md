@@ -18,4 +18,4 @@ Author: <name>
 
 ## Answer
 
-<agreed | declined | sent to brigade vote> on <date>
+<agreed | declined | sent to team vote> on <date>
