@@ -5,7 +5,7 @@ type: generic
 authors:
   - given-names: Hatam
     family-names: Abolghasemi
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-11
 license: CC-BY-4.0
 repository-code: "https://github.com/hatam-abolghasemi/open-kitchen"

@@ -2,6 +2,17 @@
 
 All notable changes to Open Kitchen are documented here. Versions follow the [versioning policy](CONTRIBUTING.md#versioning).
 
+## [1.0.1] - 2026-10-11
+
+Plain language. No change in behavior.
+
+### Changed
+
+- Dropped the kitchen metaphor everywhere except the name and the counters: the brigade is now the DevOps team, chefs are engineers, regulars are partners, the family meal is internal work, the test kitchen is R&D, and house standards are standards.
+- Removed the kitchen-to-model mapping table and the kitchen column from the concerns table.
+- Renamed `templates/brigade.md` to `templates/team.md` (the team record) and `house-standards/` to `standards/`.
+- Shortened all docs.
+
 ## [1.0.0] - 2026-10-11
 
 First public version.
@@ -19,4 +30,5 @@ First public version.
 - Sample house standards: the author's DevOps manifesto (17 beliefs) and principles.
 - Templates: brigade record, counter charter, weekly changelog, weekly manager summary, monthly value report, change request.
 
+[1.0.1]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.1
 [1.0.0]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.0
