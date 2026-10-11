@@ -13,7 +13,7 @@ It measures happiness on purpose. One bad week changes nothing.
 Only one group changes per rotation, so depth stays.
 
 **Does a small team need all this?**
-Engineers work at every group, so rotation barely applies. The rest still works.
+Engineers are in every group, so rotation barely applies. The rest still works.
 
 **Is DORA the EU regulation?**
 No. DevOps Research and Assessment.

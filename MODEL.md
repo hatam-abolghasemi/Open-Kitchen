@@ -16,7 +16,7 @@ In this order:
 
 1. Production comes first. No rule may block operations.
 2. Every repository and tool belongs to exactly one group.
-3. Each group makes its own rules.
+3. Each group writes its own recipe.
 4. Outsiders don't dictate to a group; they vote happy or unhappy.
 5. Only sustained unhappiness forces a group to review its work.
 6. Everything is visible.
@@ -25,7 +25,7 @@ In this order:
 
 ## Groups
 
-A group handles one concern. Engineers belong to the team, not to a group.
+A group handles one concern. Engineers belong to the team; group membership rotates.
 
 | Group | Concern | Example tools |
 | --- | --- | --- |
@@ -39,18 +39,18 @@ A group handles one concern. Engineers belong to the team, not to a group.
 
 Repositories follow concerns: `<team>/<concern>/<tool>-<environment>`, for example `devops/networking/haproxy-prd`.
 
-**Placing a new tool:** if the tool were removed, what need would remain? Place it at that need's group. No match goes to Others. When several tools at Others share a need, it becomes a new group.
+**Placing a new tool:** if the tool were removed, what need would remain? Place it in that need's group. No match goes to Others. When several tools in Others share a need, it becomes a new group.
 
 ## Rotation
 
-- Every engineer works at several groups.
+- Every engineer is in several groups.
 - Each rotation, exactly one of each engineer's groups changes. Everyone rotates.
 - A published scheme decides who moves where.
 - New engineers join at the rotation point.
 
 ## Partners
 
-Partners are specialists from other teams who work at a group, such as a DBA at Data. They read changelogs, vote, and are consulted on changes that affect them. They don't write a group's rules.
+Partners are specialists from other teams who work with a group, such as a DBA with Data. They read changelogs, vote, and are consulted on changes that affect them. They don't write a group's recipe.
 
 ## Standards and R&D
 
@@ -58,11 +58,11 @@ The team adopts a written manifesto ([sample](standards/MANIFESTO.md)). Each gro
 
 ## Rule 1: Minimum weekly output
 
-Each group sets a weekly minimum in its rules and delivers it no matter what. It decides what counts.
+Each group sets a weekly minimum in its recipe and delivers it no matter what. It decides what counts.
 
-## Rule 2: Each group writes its own rules
+## Rule 2: Each group writes its own recipe
 
-Each group writes a [rules](templates/rules.md): how it decides, who leads, how work is shared. Nobody outside approves it. It is renewed every rotation.
+Each group writes a [recipe](templates/recipe.md): how it decides, who leads, how work is shared. Nobody outside approves it. It is renewed every rotation.
 
 ## Rule 3: Weekly changelog and voting
 
@@ -72,7 +72,7 @@ If unhappiness stays above the threshold:
 
 1. The group holds an open session.
 2. If it continues, the group reviews its workflow and publishes the changes.
-3. If it still continues, the rest of the team writes that group's rules until it recovers.
+3. If it still continues, the rest of the team writes that group's recipe until it recovers.
 
 ## Rule 4: One gateway per group
 
@@ -113,7 +113,7 @@ Changing any of these means you're no longer running Open Kitchen.
 
 - Governs the DevOps team only.
 - One group per concern; one group per tool.
-- Each group writes its own rules.
+- Each group writes its own recipe.
 - One group per engineer changes each rotation.
 - Only sustained unhappiness forces a review.
 - Weekly changelog and minimum output.

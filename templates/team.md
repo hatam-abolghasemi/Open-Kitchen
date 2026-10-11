@@ -18,7 +18,7 @@ Next rotation point: <date>
 
 ## Groups
 
-| Group | What it handles | Repository group | Engineers | Partners |
+| Group | What it handles | Repository path | Engineers | Partners |
 | --- | --- | --- | --- | --- |
 | <group> | <concern definition> | <path> | <names> | <names and teams> |
 
