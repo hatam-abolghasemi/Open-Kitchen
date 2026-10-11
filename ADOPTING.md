@@ -14,7 +14,7 @@ Record these in your [team record](templates/team.md).
 
 ## Group decisions
 
-Each group answers these in its [charter](templates/charter.md).
+Each group answers these in its [rules](templates/rules.md).
 
 | Question | Suggested answer |
 | --- | --- |

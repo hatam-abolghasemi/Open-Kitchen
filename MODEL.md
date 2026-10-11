@@ -58,11 +58,11 @@ The team adopts a written manifesto ([sample](standards/MANIFESTO.md)). Each gro
 
 ## Rule 1: Minimum weekly output
 
-Each group sets a weekly minimum in its charter and delivers it no matter what. It decides what counts.
+Each group sets a weekly minimum in its rules and delivers it no matter what. It decides what counts.
 
 ## Rule 2: Each group writes its own rules
 
-Each group writes a [charter](templates/charter.md): how it decides, who leads, how work is shared. Nobody outside approves it. It is renewed every rotation.
+Each group writes a [rules](templates/rules.md): how it decides, who leads, how work is shared. Nobody outside approves it. It is renewed every rotation.
 
 ## Rule 3: Weekly changelog and voting
 

@@ -25,10 +25,10 @@ First public version.
 - Scaling: how chefs spread across groups in small, medium and large brigades, when a crowded group splits, and how a short-handed group gets chefs.
 - Core rules and defaults, separated so brigades know what they may tune.
 - Measuring value: brigade health, DORA delivery metrics and business value in four currencies, a reporting rhythm for the manager and peers, and how the model pairs with the adidas DevOps Maturity Framework and the CNCF Platform Engineering Maturity Model.
-- Adoption guide: team-level questions, charter questions with suggested answers, rollout plan.
+- Adoption guide: team-level questions, rules questions with suggested answers, rollout plan.
 - Questions and open challenges.
 - Sample house standards: the author's DevOps manifesto (17 beliefs) and principles.
-- Templates: brigade record, group charter, weekly changelog, weekly manager summary, monthly value report, change request.
+- Templates: brigade record, group rules, weekly changelog, weekly manager summary, monthly value report, change request.
 
 [1.0.1]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.1
 [1.0.0]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.0

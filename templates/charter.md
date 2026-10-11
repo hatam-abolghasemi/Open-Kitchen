@@ -1,4 +1,4 @@
-# <Group> Charter
+# <Group> Rules
 
 Model version: Open Kitchen v1.0.1
 Last renewed: <date>
