@@ -1,4 +1,4 @@
-# <Counter>, week <n>
+# <Group>, week <n>
 
 Minimum output met: <yes | no, and why>
 

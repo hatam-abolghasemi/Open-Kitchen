@@ -10,7 +10,7 @@ Three layers, each for a different audience.
 | Happiness | Thumbs up ÷ cast votes |
 | Internal work | Share of output for the team itself |
 | R&D | Experiments finished per month |
-| Standards gap | Open items per counter |
+| Standards gap | Open items per group |
 | Gateway response | Time to acknowledge requests |
 
 ## 2. Delivery (DORA)
@@ -23,7 +23,7 @@ Three layers, each for a different audience.
 | Change failure rate | Share of deploys needing a fix |
 | Deployment rework rate | Share of deploys that were unplanned fixes |
 
-Add reliability: share of time each service meets its SLOs. Compare a counter only with its own past.
+Add reliability: share of time each service meets its SLOs. Compare a group only with its own past.
 
 ## 3. Business value
 

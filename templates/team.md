@@ -16,17 +16,17 @@ Next rotation point: <date>
 
 <number of engineers> (<small | medium | large>)
 
-## Counters
+## Groups
 
-| Counter | What it handles | Repository group | Engineers | Partners |
+| Group | What it handles | Repository group | Engineers | Partners |
 | --- | --- | --- | --- | --- |
-| <counter> | <concern definition> | <path> | <names> | <names and teams> |
+| <group> | <concern definition> | <path> | <names> | <names and teams> |
 
 ## Current gateways
 
-| Counter | Gateway | Until |
+| Group | Gateway | Until |
 | --- | --- | --- |
-| <counter> | <engineer> | <date> |
+| <group> | <engineer> | <date> |
 
 ## Defaults we changed
 
@@ -40,4 +40,4 @@ Next rotation point: <date>
 
 ## Rotation scheme
 
-<how we pick which counter changes for each engineer, and where the engineer goes>
+<how we pick which group changes for each engineer, and where the engineer goes>

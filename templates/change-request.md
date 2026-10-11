@@ -1,7 +1,7 @@
 # <title>
 
-From: <counter>
-To: <counter>
+From: <group>
+To: <group>
 Author: <name>
 
 ## Problem
@@ -14,7 +14,7 @@ Author: <name>
 
 ## Impact
 
-<what changes for the other counter>
+<what changes for the other group>
 
 ## Answer
 

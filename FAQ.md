@@ -4,16 +4,16 @@
 No. Only the DevOps team.
 
 **Does it replace Scrum or Kanban?**
-No. Each counter picks its own workflow.
+No. Each group picks its own workflow.
 
 **Isn't voting a popularity contest?**
 It measures happiness on purpose. One bad week changes nothing.
 
 **Doesn't rotation destroy expertise?**
-Only one counter changes per rotation, so depth stays.
+Only one group changes per rotation, so depth stays.
 
 **Does a small team need all this?**
-Engineers work at every counter, so rotation barely applies. The rest still works.
+Engineers work at every group, so rotation barely applies. The rest still works.
 
 **Is DORA the EU regulation?**
 No. DevOps Research and Assessment.

@@ -4,17 +4,17 @@
 
 Record these in your [team record](templates/team.md).
 
-1. Which counters do we open?
-2. How many counters per engineer?
+1. Which groups do we open?
+2. How many groups per engineer?
 3. Which defaults do we change?
 4. Which standards do we adopt?
 5. How are first assignments made, and how does rotation work?
 6. Who votes, and where?
 7. Which maturity framework do we use?
 
-## Counter decisions
+## Group decisions
 
-Each counter answers these in its [charter](templates/charter.md).
+Each group answers these in its [charter](templates/charter.md).
 
 | Question | Suggested answer |
 | --- | --- |
@@ -34,6 +34,6 @@ Each counter answers these in its [charter](templates/charter.md).
 | Phase | Duration |
 | --- | --- |
 | Decide | 2 weeks |
-| Pilot with two counters | 8 weeks |
+| Pilot with two groups | 8 weeks |
 | Review | 1 week |
-| All counters | 6 weeks |
+| All groups | 6 weeks |

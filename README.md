@@ -4,7 +4,7 @@
 
 As a DevOps team grows, it splits into fixed groups and rebuilds the silos DevOps exists to break. Open Kitchen prevents that.
 
-The team is organized around technical concerns. Each concern has one **counter**: a place where work is done, not a group of people. Every engineer works at several counters, and the set rotates. Each counter writes its own rules, publishes its work weekly, and is judged by everyone it affects.
+The team is organized around technical concerns. Each concern has one **group**: a place where work is done, not a group of people. Every engineer works at several groups, and the set rotates. Each group writes its own rules, publishes its work weekly, and is judged by everyone it affects.
 
 Like an open kitchen, all work is visible.
 

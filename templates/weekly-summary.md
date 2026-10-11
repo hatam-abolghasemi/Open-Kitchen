@@ -2,18 +2,18 @@
 
 ## At a glance
 
-| Counter | Minimum met | Happiness | Incidents |
+| Group | Minimum met | Happiness | Incidents |
 | --- | --- | --- | --- |
-| <counter> | <yes / no> | <thumbs up ÷ cast votes> | <count> |
+| <group> | <yes / no> | <thumbs up ÷ cast votes> | <count> |
 
 ## Highlights
 
-- <counter>: <change> → <currency>: <effect>
+- <group>: <change> → <currency>: <effect>
 
 ## Needs attention
 
-- <counter>: <issue, and what the counter is doing about it>
+- <group>: <issue, and what the group is doing about it>
 
 ## Manager overrides this week
 
-- <none | decision and counter>
+- <none | decision and group>
