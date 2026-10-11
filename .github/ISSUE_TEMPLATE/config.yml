@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or debate about a rule
+    url: https://github.com/hatam-abolghasemi/open-kitchen/discussions
+    about: Is a rule right at all? Start a discussion first.
+  - name: Report from a brigade running the model
+    url: https://github.com/hatam-abolghasemi/open-kitchen/discussions
+    about: Share your brigade size, what worked, what broke and what you tuned.
