@@ -4,8 +4,28 @@ All notable changes to Open Kitchen are documented here. Versions follow the [ve
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-10-28
+
+### Added
+
+- Ranked values replace the goals: reliability, happiness, action, distribution, low maintenance. The higher one wins a collision.
+- Rotation cohorts: engineers rotate in different months, and moves balance inside each cohort.
+- Rotation rankings: engineers rank the groups they'd like to join.
+- Handover window and newcomer on-call wait.
+- Borrowing: a short-handed group can borrow an engineer for up to 4 weeks with both gateways' agreement.
+- Work spanning several groups is owned by whoever starts it.
+- People section: changelog items name who did them, a paragraph per engineer leaving a group, and a monthly one-question team pulse.
+- Minimum turnout for votes; only people a group's work affects vote.
+- Templates: objection field in change requests, cohorts in the team record, handover in the recipe, SLOs, turnout, pulse and borrowing in the weekly summary.
+
 ### Changed
 
+- Core rule: sustained unreliability (missed SLOs or a repeated incident) now forces a review, like sustained unhappiness.
+- Between groups: the owning group decides change requests within 3 working days, and no answer means agreed. The team vote is removed.
+- Recipes are renewed once a year instead of every rotation.
+- No rotation happens during a change freeze.
+- Releases are cut from this file: renaming `[Unreleased]` to `[X.Y.Z] - YYYY-MM-DD` and pushing to main runs the docs checks, then tags `vX.Y.Z` and creates the GitHub release with that section as notes.
+- Docs checks run only on pushes to main, not on pull requests.
 - Renamed counters to groups.
 - Renamed charters to recipes, and `templates/charter.md` to `templates/recipe.md`.
 
@@ -37,5 +57,6 @@ First public version.
 - Sample house standards: the author's DevOps manifesto (17 beliefs) and principles.
 - Templates: brigade record, counter charter, weekly changelog, weekly manager summary, monthly value report, change request.
 
+[1.0.2]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.2
 [1.0.1]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.1
 [1.0.0]: https://github.com/hatam-abolghasemi/open-kitchen/releases/tag/v1.0.0
