@@ -8,8 +8,8 @@ Record these in your [team record](templates/team.md).
 2. How many groups per engineer?
 3. Which defaults do we change?
 4. Which standards do we adopt?
-5. How are first assignments made, and how does rotation work?
-6. Who votes, and where?
+5. How are first assignments made, which cohort is each engineer in, and how are rankings collected?
+6. Where do people vote, and who counts as affected?
 7. Which maturity framework do we use?
 
 ## Group decisions

@@ -8,6 +8,8 @@ Three layers, each for a different audience.
 | --- | --- |
 | Minimum output | Weeks met ÷ weeks |
 | Happiness | Thumbs up ÷ cast votes |
+| Team pulse | Engineers happy in their groups ÷ engineers |
+| Load fairness | Spread of on-call shifts per engineer |
 | Internal work | Share of output for the team itself |
 | R&D | Experiments finished per month |
 | Standards gap | Open items per group |
