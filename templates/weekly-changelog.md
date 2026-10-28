@@ -4,15 +4,15 @@ Minimum output met: <yes | no, and why>
 
 ## Delivered
 
-- <tool>-<environment>: <what changed> → <money | time | risk | customer experience>: <effect>
+- <tool>-<environment>: <what changed> (<who>) → <money | time | risk | customer experience>: <effect>
 
 ## Internal work
 
-- <what we did for the DevOps team itself> → <currency>: <effect>
+- <what we did for the DevOps team itself> (<who>) → <currency>: <effect>
 
 ## R&D
 
-- <experiment>: <what we tried, what we found> → <currency>: <effect>
+- <experiment>: <what we tried, what we found> (<who>) → <currency>: <effect>
 
 ## Decided
 

@@ -1,12 +1,12 @@
 # <Team> Team Record
 
-Model version: Open Kitchen v1.0.1
+Model version: Open Kitchen v1.0.2
 Last renewed: <date>
-Next rotation point: <date>
+Next rotation points: <cohort A date>, <cohort B date>, <cohort C date>
 
 ## Standards
 
-<Open Kitchen sample, as of v1.0.1 | our own, with link | the sample with our changes, with link>
+<Open Kitchen sample, as of v1.0.2 | our own, with link | the sample with our changes, with link>
 
 ## Maturity framework
 
@@ -38,6 +38,12 @@ Next rotation point: <date>
 
 1. <answer>
 
+## Cohorts
+
+| Cohort | Engineers | Rotates in |
+| --- | --- | --- |
+| <A> | <names> | <months> |
+
 ## Rotation scheme
 
-<how we pick which group changes for each engineer, and where the engineer goes>
+<how we collect each engineer's ranking, and how we pick which group changes and where the engineer goes>

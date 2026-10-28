@@ -1,6 +1,6 @@
 # <Group> Recipe
 
-Model version: Open Kitchen v1.0.1
+Model version: Open Kitchen v1.0.2
 Last renewed: <date>
 
 ## Engineers
@@ -53,7 +53,11 @@ Last renewed: <date>
 
 ## On-call
 
-<how we build our monthly on-call list>
+<how we build our monthly on-call list and keep shifts even>
+
+## Handover
+
+<where our walkthrough lives, and who runs it when someone leaves>
 
 ## Emergency changes by outsiders
 

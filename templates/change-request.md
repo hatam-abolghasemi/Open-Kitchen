@@ -18,4 +18,8 @@ Author: <name>
 
 ## Answer
 
-<agreed | declined | sent to team vote> on <date>
+<agreed | declined | no answer, so agreed> on <date>
+
+## Objection
+
+<none | why the requester disagrees; answered at the next rotation point>
