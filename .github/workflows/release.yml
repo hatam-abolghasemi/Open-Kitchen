@@ -1,0 +1,71 @@
+name: release
+
+# Releases are cut from CHANGELOG.md on main. Work goes under [Unreleased];
+# renaming it to "## [X.Y.Z] - YYYY-MM-DD" and pushing to main releases vX.Y.Z.
+on:
+  push:
+    branches: [main]
+    paths: [CHANGELOG.md]
+
+permissions: {}
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  version:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+      release: ${{ steps.v.outputs.release }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - id: v
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          VERSION=$(sed -nE 's/^## \[([0-9]+\.[0-9]+\.[0-9]+)\] - [0-9]{4}-[0-9]{2}-[0-9]{2}$/\1/p' CHANGELOG.md | head -n1)
+          if [ -z "$VERSION" ]; then
+            echo "::error file=CHANGELOG.md::no '## [X.Y.Z] - YYYY-MM-DD' heading found"
+            exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          if gh api "repos/$REPO/git/ref/tags/v$VERSION" > /dev/null 2>&1; then
+            echo "v$VERSION is already released and [Unreleased] has not been cut into a new version; nothing to do"
+            echo "release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "releasing $VERSION"
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  docs:
+    needs: version
+    if: needs.version.outputs.release == 'true'
+    uses: ./.github/workflows/docs.yml
+    permissions:
+      contents: read
+
+  github-release:
+    needs: [version, docs]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ needs.version.outputs.version }}
+          SHA: ${{ github.sha }}
+        run: |
+          awk -v v="$VERSION" '$0 ~ "^## \\[" v "\\]" {f=1; next} /^## \[/ {f=0} /^\[[^]]+\]: / {f=0} f' CHANGELOG.md > notes.md
+          gh release create "v$VERSION" --target "$SHA" --title "$VERSION" --notes-file notes.md
